@@ -7,10 +7,9 @@ export const DEFAULT =
     Object.freeze({
         dynamic: async() => ({
             amount: 0,
-            bonus: 0
         }),
         pair: 'USDJPY',
         lot: 10000,
         stopSize: 40,
-        swap: null,
+        swap: Swap.DEFAULT,
     });
