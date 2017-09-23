@@ -6,8 +6,8 @@ import * as Exchange from '../enum/Exchange';
 export const DEFAULT =
     Object.freeze({
         tick: '1970-01-01 00:00:00',
-        ask: 0,
-        bid: 0,
+        ask: Number.NaN,
+        bid: Number.NaN,
     });
 
 /** Get order price by exchange type. */
